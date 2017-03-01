@@ -1,0 +1,540 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../font/iconfont.eot');
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+*{
+    font-family:'微软雅黑';
+}
+
+/*smallbanner*/
+.smallbanner{
+    width: 100%;
+    height: 35px;
+    background: #002050;
+    text-align: center;
+    line-height:35px;
+}
+.smallbanner p{
+    color:#fff;
+    font-size:16px;
+    font-weight:400;
+}
+.smallbanner p a{
+    color:#fff;
+    font-size:16px;
+    font-weight:400;
+}
+
+/*header*/
+.header{
+    width: 100%;
+    height: 50px;
+    background: #F5F5F5;
+ 
+}
+.header .con .hd_le h1{
+    width: 95px;
+    height: 22px;
+    float: left;
+    margin-top:15px;
+    background: url("../images/logo.png");
+    text-indent: -999px;
+}
+.header .con .hd_le ul{
+    float: left;
+    margin-top:15px;
+}
+.header .con .hd_le ul li{
+    float: left;
+    margin-left:48px;
+}
+.header .con .hd_le ul li a{
+    font-size:12px;
+    color:#666666;
+}
+.header .con .hd_le ul li .dian{
+    width:10px;
+    height: 10px;
+    background:#0078D7;
+    border-radius: 5px;
+    position: relative;
+    left:-5px;
+    top:5px;
+    display: block;
+    float: left;
+}
+.header .con .hd_ri .searchbox{
+    width: 345px;
+    height: 30px;
+    border: 1px solid #666;
+    float: left;
+    margin-top:10px;
+}
+.header .con .hd_ri .searchbox input{
+    height: 28px;
+    width: 300px;
+    margin-left:10px;
+    background: #f5f5f5;
+    color:#aaa;
+    font-size:14px;
+}
+.header .con .hd_ri .searchbox button{
+    height: 28px;
+    width: 30px;
+    float: right;
+    background: #f5f5f5;
+}
+.header .con .hd_ri .searchbox button i{
+    font-size:24px;
+}
+.header .con .hd_ri a{
+    margin-left:30px;
+    line-height:50px;
+    color:#666;
+}
+.header .con .hd_ri a i{
+    font-size:24px;
+}
+.header .con .hd_ri a:hover{
+    color:#0078D7;
+}
+/*nav*/
+.nav{
+    width: 100%;
+    height: 70px;
+    line-height:70px;
+    border-bottom:1px solid #ccc;
+    background: #fff;
+}
+.nav .nav_le h2 {
+    float: left;
+
+
+}
+.nav .nav_le h2 a{
+    font-size:16px;
+    color:#000;
+}
+.nav .nav_le ul{
+    height: 70px;
+    float: left;
+}
+.nav .nav_le ul li{
+    float: left;
+    margin-left:60px;
+    position: relative;
+}
+.nav .nav_le ul li a{
+    font-size: 14px;
+}
+
+.tow{
+    transform: scaleX(1.5) rotate(90deg);
+    display: block;
+    float: right;
+    margin-left:3px;
+    display:none;
+    cursor: pointer;
+}
+.nav .nav_le ul li a .tow{
+    display: block;
+}
+.nav .nav_le ul li a .cur{
+    transform: scaleX(1.5) rotate(-90deg);
+}
+
+.nav .nav_le ul li .hardware{
+    width: 250px;
+    height: 280px;
+    background: #fff;
+    position: absolute;
+    top:69px;
+    left:-20px;
+    display:none;
+}
+.nav .nav_le ul li .hardware li{
+    width: 250px;
+    height:55px;
+    line-height:55px;
+    margin-left:20px;
+}
+.nav .nav_le ul li .hardware li a{
+    color:#111;
+}
+.nav .nav_ri{
+    margin-left:100px;
+    margin-top:-5px;
+}
+.nav .nav_ri a:first-child:hover{
+    text-decoration: underline;
+}
+.nav .nav_ri a:last-child{
+    color:#666;
+    margin-left:20px;
+}
+
+
+/*banner*/
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+.banner .left{
+    width: 820px;
+    height: 435px;
+    margin-right:2px;
+    float: left;
+}
+.banner .left img{
+    width: 820px;
+    height: 435px;
+}
+.banner .right{
+    width: 390px;
+    height: 435px;
+    float: left;
+}
+.banner .right img{
+    width: 390px;
+    height: 216px;
+    margin-bottom:2px;
+}
+
+/*con1*/
+.con1{
+    height: 635px;
+    margin-top:40px;
+}
+.con1 .aside{
+    width: 305px;
+    height: 635px;
+}
+.con1 .aside ul li{
+
+    padding-left:15px;
+    line-height:40px;
+
+}
+.con1 .aside ul li a{
+    font-size:20px;
+    font-weight:500;
+}
+.con1 .aside ul li a:hover{
+    text-decoration: underline;
+}
+.con1 .aside p{
+    width: 280px;
+    height: 173px;
+    position: relative;
+    margin-top:40px;
+}
+.con1 .aside img{
+    width: 280px;
+
+
+}
+.con1 .aside p:after{
+    content: '店长推荐';
+    font-size:28px;
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+.con1 .artical{
+    width: 910px;
+    height: 635px;
+}
+.con1 .artical dl{
+    width: 292px;
+    height: 210px;
+    margin-bottom:15px;
+    margin-right:10px;
+    float: left;
+}
+.con1 .artical dl dt img{
+    width: 295px;
+}
+.con1 .artical dl dd{
+    font-size:18px;
+}
+.con1 .artical .bottom{
+    float: left;
+}
+.con1 .artical .bottom ul li{
+    float: left;
+    height: 50px;
+    width: 110px;
+    line-height:50px;
+    text-align: center;
+    font-size:16px;
+}
+.con1 .artical .bottom ul li a{
+    color:#aaa;
+}
+.con1 .artical .bottom ul .cur{
+    border: 1px solid #ccc;
+    border-bottom:none;
+    background: #fff;
+    position: relative;
+    top:2px;
+}
+.con1 .artical .bottom ul .cur a{
+    color:#2b2b2b;
+}
+.con1 .artical .bottom div img{
+    width: 910px;
+    border-top:1px solid #cccccc;
+    display:block;
+}
+.con1 .artical .bottom .active img{
+    display: none;
+}
+.con2{
+    height: 380px;
+    border-top:1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+    margin-top:35px;
+}
+.con2 ul{
+
+    height: 380px;
+
+}
+.con2 ul li{
+    width: 25%;
+    height: 100%;
+    float: left;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 10px;
+}
+.con2 ul li a img{
+    width: 100%;
+    height: 50%;
+}
+.con2 ul li a h4{
+    height: 50px;
+    font-size:20px;
+    color:#aaa;
+}
+.con2 ul li span{
+    color: #f60;
+    font-size:18px;
+    height: 32px;
+    display: block;
+    margin-top:30px;
+}
+.con2 ul li button{
+    width: 200px;
+    height: 40px;
+    background: #EC5411;
+    margin-top:15px;
+    font-weight:400;
+}
+.con2 ul li button a{
+    color:#fff;
+    font-size:16px;
+
+}
+.con2 ul li:last-child{
+    background: #F0F0F0 url("../images/con2-4.png") no-repeat 5px bottom;
+}
+.con2 ul li:last-child h2{
+    font-size:30px;
+    color:#333333;
+}
+/**************************************con3*/
+.con3{
+    height: 267px;
+    margin-top:75px;
+    text-align: center;
+}
+.con3 h2{
+    font-size:26px;
+    font-weight:bold;
+    width: 260px;
+    color:#333333;
+
+}
+.con3 ul{
+    height: 135px;
+}
+.con3 ul a{
+    display: block;
+    width: 23.6%;
+    margin-right:20px;
+    height: 100%;
+    float: left;
+
+}
+.con3 ul li{
+    float: left;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    font-size:14px;
+    padding-left: 10px;
+}
+.con3 ul a:nth-of-type(1) li{
+    background: url("../images/foot-1.jpg");
+    background-size: auto 100%;
+
+}
+.con3 ul a:nth-of-type(2) li{
+    background: url("../images/foot-2.jpg");
+    background-size: auto 100%;
+
+}
+.con3 ul a:nth-of-type(3) li{
+    background: url("../images/foot-3.jpg");
+    background-size: auto 100%;
+
+}
+.con3 ul a:nth-of-type(4){
+    margin-right:0px;
+}
+.con3 ul a:nth-of-type(4) li{
+    background: url("../images/foot-4.jpg");
+    background-size: auto 100%;
+
+}
+.con3 p{
+    line-height:46px;
+    font-size:18px;
+}
+.con3 p em{
+    width: 24px;
+    height: 25px;
+    background: url("../images/sprite.png") no-repeat 0 -102px;
+    display: block;
+    float: left;
+    position: relative;
+    left:178px;
+    top:11px;
+}
+.con3 .p1{
+    margin-top:10px;
+}
+.con3 .p1 span{
+    margin-left:20px;
+    color: blue;
+    text-decoration: underline;
+    background: url("../images/sprite.png") no-repeat 0 -66px;
+    padding-left: 30px;
+}
+.con3 .p2 em{
+    left:310px;
+}
+.con3 .p2 i{
+    color: blue;
+    text-decoration: underline;
+}
+/**********************************footer*/
+.footer{
+    width: 100%;
+    height: 563px;
+    background: #EEEEEE;
+}
+.footer .footer_top{
+    height: 60px;
+    border-bottom: 1px solid #000;
+    line-height:60px;
+}
+.footer .footer_top h5{
+    width: 320px;
+    font-size:18px;
+    float: left;
+}
+.footer .footer_top input{
+    float: left;
+    width: 200px;
+    height: 36px;
+    line-height:36px;
+    margin-top:12px;
+    border: 1px solid #ccc;
+    color:#aaa;
+    padding-left:5px;
+}
+.footer .footer_top button{
+    width: 90px;
+    height: 36px;
+    background: #3A9CD7;
+    margin-top:-2px;
+
+}
+.footer .footer_top button a{
+    color:#fff;
+}
+.footer .footer_top span{
+    margin-left:10px;
+}
+.footer .footer_top span a{
+    text-decoration: underline;
+}
+.footer .footer_center{
+    height: 400px;
+    
+}
+.footer .footer_center dl{
+    float: left;
+    width: 25%;
+}
+.footer .footer_center dl dt{
+    line-height:80px;
+    font-size:18px;
+}
+.footer .footer_center dl dd{
+    line-height: 30px;
+    font-size:14px;
+}
+.footer .footer_center dl dd span{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background: url("../images/sprite.png") no-repeat;
+    margin-right:10px;
+}
+.footer .footer_center dl dd span:nth-of-type(2){
+    background-position: 0 -29px;
+    position: relative;
+}
+.footer .footer_center dl dd span:nth-of-type(2) img{
+    position: absolute;
+    left:-20px;
+    top:-100px;
+    display:none;
+}
+.footer address{
+    width: 100%;
+    font-style: normal;
+    height: 50px;
+    display: block;
+    float: left;
+    margin-top:30px;
+    line-height:50px;
+}
+.footer address .shi a,span{
+   padding:0 10px;
+    color:#000;
+}
+.top-fixed{
+    width: 35px;
+    height: 34px;
+    background: url("../images/sprite.png") no-repeat 0 -136px;
+    position: fixed;
+    bottom:200px;
+    right:0;
+    display:none;
+}
